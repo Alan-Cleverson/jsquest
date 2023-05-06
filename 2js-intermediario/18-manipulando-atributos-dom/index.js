@@ -15,3 +15,15 @@ function aumentarFonte(){
 
     console.log(textoPost[1].classList)
 }
+
+function marcarRadio(genero) {
+    let radioMasculino = document.getElementById('genero-masculino')
+
+    let radioFeminino = document.getElementById('genero-feminino')
+
+    if (genero === 'M') {
+        radioMasculino.checked = true;
+    } else if(genero === 'F'){
+        radioFeminino.checked = true;
+    }
+}
