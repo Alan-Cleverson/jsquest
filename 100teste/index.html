@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina teste</title>
+</head>
+<body>
+    <h1>Teste de programa de dados</h1>
+    <label for="nome">Digite seu nome:</label><br>
+    <input type="text" name="nom" id="nome">
+    <br>
+
+    <label for="idade">Digite sua idade:</label><br>
+    <input type="number" name="idad" id="idade" placeholder="aqui sua idade">
+    <br>
+    
+    <div id="cores">
+        <label for="cor">Qual sua cor preferida:</label>
+        <input type="radio" name="cor" id="azul" class="cores">  
+            <label for="azul">Azul</label><br> 
+
+        <input type="radio" name="cor" id="vermelho" class="cores"> 
+            <label for="vermelho">Vermelho</label><br> 
+
+        <input type="radio" name="cor" id="verde" class="cores">    
+            <label for="verde">Verde</label>   <br> 
+
+        <input type="radio" name="cor" id="rosa" class="cores">    
+            <label for="rosa">Rosa</label><br> 
+
+        <input type="radio" name="cor" id="roxo" class="cores">    
+            <label for="roxo">Roxo</label><br> 
+
+        <input type="radio" name="cor" id="amarelo" class="cores">    
+            <label for="amarelo">Amarelo</label> <br>    
+
+        <input type="radio" name="cor" id="laranja" class="cores">    
+            <label for="laranja">Laranja</label> <br> 
+
+        <input type="radio" name="cor" id="preto" class="cores">    
+            <label for="preto">Preto</label> <br> 
+
+        <input type="radio" name="cor" id="branco" class="cores">    
+            <label for="branco">Branco</label>     <br>     
+    </div>
+    <button type="submit" onclick="finalizar()">carregar informações</button>
+    
+    <p id="relatorio"></p>
+    <p id="relatorio1"></p>
+    <p id="relatorio2"></p>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>

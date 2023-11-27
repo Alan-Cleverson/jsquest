@@ -1,0 +1,33 @@
+.container {
+    height: 130px;
+    display: flex;
+    max-width: 400px;
+    border: 1px solid #ccc;
+}
+
+.item {
+    background-color: rgb(195, 145, 241);
+    font-size: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.center {
+    align-items: center ;
+}
+
+.stracth {
+    align-items: stretch;
+}
+
+.baseline {
+    align-items: baseline;
+}
